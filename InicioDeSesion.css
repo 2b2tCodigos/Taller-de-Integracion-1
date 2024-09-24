@@ -1,0 +1,78 @@
+header {
+    background-color: rgba(3, 63, 158);
+    text-align: end;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;    /* lo limita hasta el borde de la pagina */
+    justify-content: flex-start; /* Alinea horizontalmente el contenido al inicio (izquierda) */
+
+}
+
+header img.logo{
+    max-width: 560px; /* Ajusta el tamaño máximo de la imagen */
+    margin-right: 180px; /* Espacio entre la imagen y el texto */
+
+}
+
+/* Estilos para el contenedor del formulario de inicio de sesión */
+#login-section {
+    padding: 20px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo */
+    margin: 20px auto; /* Centrado en la página */
+    max-width: 400px; /* Ancho máximo del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#login-section h2 {
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #333;     /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin-bottom: 20px; /* Espacio debajo del h2 */
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos del formulario verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+}
+
+.login-container label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%; /* Hace que los inputs ocupen el 100% del ancho disponible */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.login-container button {
+    background-color: rgb(6, 79, 198); /* Color del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-container button:hover {
+    background-color: rgba(3, 63, 158); /* Cambia el color cuando se pasa el mouse */
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}

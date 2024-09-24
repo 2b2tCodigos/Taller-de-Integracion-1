@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="InicioDeSesion.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+    
+    <header>
+        <img src="LOGOinformatica.png" alt="Descripción de la Imagen" class="logo"> <!-- Imagen al lado del texto -->
+        <div class="header-text"></div>
+        <h1>Servicios y herramientas Informatica UCT</h1>
+    </header>
+    <hr>
+  <section id="login-section">
+    <h2>Inicie Sesion</h2>
+    <div class="login-container">
+      <form action="/login" method="POST">
+        <label for="username">Correo:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Iniciar Sesión</button>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <footer>
+    <div class="footer-text">
+        <p>&copy; Pagina Herramientas y Servicios de informatica UCT 2024</p>
+        <p>Contacto: herramientas.informatica-mario@uct.cl</p>
+    </div>
+    </footer>
+</body>
+</html>

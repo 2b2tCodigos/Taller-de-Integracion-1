@@ -1,0 +1,255 @@
+header {
+    background-color: rgba(3, 63, 158);
+    text-align: end;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;    /* lo limita hasta el borde de la pagina */
+    justify-content: flex-start; /* Alinea horizontalmente el contenido al inicio (izquierda) */
+
+}
+
+header img.logo{
+    max-width: 560px; /* Ajusta el tamaño máximo de la imagen */
+    margin-right: 180px; /* Espacio entre la imagen y el texto */
+
+}
+
+nav{
+    background-color: rgb(6, 79, 198);
+    flex-flow: row wrap;  /* lo ordena en fila y al tamaño de la pagina */
+    text-align: start;    
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+nav ul{
+    color: white;
+    flex-flow: row wrap;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Estilos para la sección de computadoras */
+#computadores {
+    padding: 20px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo ligero */
+    margin: 20px 0; /* Espacio externo arriba y abajo */
+}
+
+/* Estilos para el texto dentro de la sección de computadoras */
+.computadores-text {
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+
+}
+
+/* Estilos para la sección de computadoras */
+#impresiones {
+    padding: 20px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo ligero */
+    margin: 20px 0; /* Espacio externo arriba y abajo */
+}
+
+/* Estilos para el texto dentro de la sección de computadoras */
+.impresiones-text {
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+
+}
+
+#materiales {
+    padding: 20px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo ligero */
+    margin: 20px 0; /* Espacio externo arriba y abajo */
+}
+
+/* Estilos para el texto dentro de la sección de computadoras */
+.materiales-text {
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+
+}
+
+#contacto {
+    padding: 20px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo ligero */
+    margin: 20px 0; /* Espacio externo arriba y abajo */
+}
+
+/* Estilos para el texto dentro de la sección de computadoras */
+.contacto-text {
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+
+}
+
+#footer {
+    padding: 20px; /* Espacio interno */
+    background-color: #f0f0f0; /* Color de fondo ligero */
+    margin: 20px 0; /* Espacio externo arriba y abajo */
+}
+
+/* Estilos para el texto dentro de la sección de computadoras */
+.footer-text {
+    text-align: center; /* Centra el texto */
+    color: #333; /* Color del texto */
+
+}
+
+/*--------------------------------------------------BOTON DESPEGABLE " CUENTA " -------------------------*/
+/* Estilo para el contenido del dropdown */
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 280px;
+    left: 1150px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Mostrar el dropdown al pasar el mouse */
+.dropdown-content {
+    display: block;
+}
+
+/*---------------------------------------------------BOTON DESPEGABLE " MIS RESERVAS MENSUALES " -----------------------*/
+
+.dropdown-numerodos {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 280px;
+    left: 900px;
+
+}
+
+.dropdown-numerodos a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-numerodos a:hover {
+    background-color: #ddd;
+}
+
+/* Mostrar el dropdown al pasar el mouse */
+.dropdown-numerodos {
+    display: block;
+}
+/*----------------------------------------------------------NUEVO HECHO PRIMERA SEMANA DE SEPTIEMBRE--------------------------*/
+.dropdown-materiales {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 280px;
+    left: 485px;
+
+}
+
+.dropdown-materiales a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-materiales a:hover {
+    background-color: #ddd;
+}
+
+/* Mostrar el dropdown al pasar el mouse */
+.dropdown-materiales {
+    display: block;
+}
+
+.dropdown-contacto {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 280px;
+    left: 670px;
+
+}
+
+.dropdown-contacto a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contacto a:hover {
+    background-color: #ddd;
+}
+
+/* Mostrar el dropdown al pasar el mouse */
+.dropdown-contacto {
+    display: block;
+}
+
+
+/* Estilo básico para los menús desplegables */
+.dropdown-content, .dropdown-numerodos, .dropdown-materiales, .dropdown-contacto {
+    max-height: 0; /* Altura inicial 0 (oculto) */
+    overflow: hidden; /* Evita que el contenido salga de su contenedor */
+    transition: max-height 0.3s ease-out; /* Duración y efecto de la transición */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Estilo de los enlaces dentro de los menús */
+.dropdown-content a, .dropdown-numerodos a, .dropdown-materiales a, .dropdown-contacto a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambio de fondo cuando el mouse pasa sobre los enlaces */
+.dropdown-content a:hover, .dropdown-numerodos a:hover, .dropdown-materiales a:hover, .dropdown-contacto a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Clase show que revela el menú, aquí se ajusta la altura máxima para la transición */
+.show {
+    max-height: 300px; /* Ajusta esta altura según la cantidad de contenido */
+}
